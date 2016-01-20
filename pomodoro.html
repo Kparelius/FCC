@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <title>Pomodoro Clock</title>
+</head>
+
+<body>
+
+  <h1 style="text-align: center">Pomodoro Clock</h1>
+  <h4 style="text-align: center">To reduce distractions, this will not show a countdown time.</h4>
+  <p style="text-align: center">Meditation begins 10 seconds after pressing start, when you hear the gong.</p>
+
+  <div class="time" align="center">
+    <input id="chosenTime" size="8" type="number" name="minutes" min="5" step="5" value="25"></input>
+    <span>Minutes<span>
+    </div>
+    </br>
+    <div id="buttDiv" align="center">
+      <input id="startButton" type="button" value="Start"></input>
+      <input id="resetButton" type="button" value="Reset"></input>
+    </div>
+  </body>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="pomodoro.js"></script>
+  <link href="meditation_style.css" rel="stylesheet">
+</html>
